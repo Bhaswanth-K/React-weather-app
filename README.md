@@ -1,18 +1,36 @@
-# React + Vite
+#  Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that lets users search for a city and view its current weather.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Working part
+- Search weather by city  
+- Shows temperature, condition, humidity, and wind  
+- Displays last 5 recent searches  
+- Shows **Loading...** while fetching  
+- Shows error when city is not found  
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+##  Internal Working part
+- Uses **axios** to call the OpenWeatherMap API  
+- A custom hook `useWeatherData()` manages:
+  - weather data  
+  - loading state  
+  - error state  
+  - fetch function  
+- Recent searches are stored in component state  
+- `WeatherDisplay` component shows the results  
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+##  Testing part
+- Rendering tests (input, button, components)  
+- User interaction tests (typing & button clicks)  
+- Loading state tests  
+- Error handling tests  
+- Weather data display tests  
+- Custom hook tests  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
