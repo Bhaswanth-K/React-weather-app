@@ -1,0 +1,43 @@
+.app {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-row {
+  display: flex;
+  gap: 10px;
+}
+
+.search-row input {
+  flex: 1;
+  padding: 8px;
+}
+
+.weather-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 6px;
+}
+
+.recent {
+  margin-top: 20px;
+}
+
+.recent ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.recent button {
+  padding: 6px 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  border-radius: 4px;
+}
