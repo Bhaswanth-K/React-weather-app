@@ -34,3 +34,10 @@ A simple React app that lets users search for a city and view its current weathe
 - Custom hook tests  
 
 ---
+## Output
+![Output 1](https://github.com/Bhaswanth-K/React-weather-app/blob/master/output/q1%20(1).png)
+![Output 2](https://github.com/Bhaswanth-K/React-weather-app/blob/master/output/q1%20(4).png)
+![Output 3](https://github.com/Bhaswanth-K/React-weather-app/blob/master/output/q1%20(2).png)
+![Output 4](https://github.com/Bhaswanth-K/React-weather-app/blob/master/output/q1%20(3).png)
+
+
